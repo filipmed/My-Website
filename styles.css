@@ -5,7 +5,7 @@
     list-style: none;
 }
 body{
-    background-color: #00917C;
+    background-color: #025955;
     font-family: montserrat;
 }
 label.logo{
@@ -18,7 +18,7 @@ label.logo{
 nav{
     width: 100%;
     height: 80px;
-    background-color: #025955;
+    background-color:  #00917C;
 
 }
 nav ul{
@@ -35,4 +35,34 @@ nav a{
     font-size: 15px;
     text-transform: uppercase;
     border: 1px solid transparent;
+}
+.profile-text .img{
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.container{
+    position: relative;
+    margin: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0,0.1);
+
+
+}
+
+
+.container .right_side{
+    position: relative;
+    padding: 40px;
+
+}
+.container .left-side{
+    position: relative;
+    padding: 40px;
+
 }
