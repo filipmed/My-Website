@@ -5,20 +5,20 @@
     list-style: none;
 }
 body{
-    background-color: #025955;
+    background-color: #252A34;
     font-family: montserrat;
 }
 label.logo{
     font-size:35px;
     font-weight: bold;
-    color:#433520;
+    color:#EAEAEA;
     padding: 0 100px;
     line-height: 80px;
 }
 nav{
     width: 100%;
     height: 80px;
-    background-color:  #00917C;
+    background-color:  #222831;
 
 }
 nav ul{
@@ -29,9 +29,10 @@ nav li{
     display: inline-block;
     margin: 0 8px;
     line-height: 80px;
+    
 }
 nav a{
-    color:#433520;
+    color:#EAEAEA;
     font-size: 15px;
     text-transform: uppercase;
     border: 1px solid transparent;
@@ -51,7 +52,7 @@ nav a{
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0,0.1);
-
+    color:#EAEAEA;
 
 }
 
@@ -65,4 +66,31 @@ nav a{
     position: relative;
     padding: 40px;
 
+}
+p{
+    color:#EAEAEA;
+}
+h3{
+    color:#EAEAEA;
+}
+h2{
+    color:#FF2E63;
+
+}
+.about-me h3 {
+    margin-right:30px;
+    font-size: 50px;
+    color:#FF2E63;
+}
+.My_Projects h3{
+    margin-right:30px;
+    font-size: 50px;
+    color:#FF2E63;
+}
+.My_Projects p{
+    color:#08D9D6;
+    margin-right:30px;
+    font-size: 50px;
+    text-align: center;
+   
 }
