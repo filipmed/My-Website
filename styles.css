@@ -109,3 +109,32 @@ a{
     font-size: 60px;
     color:#EAEAEA;
 }
+ul li{
+    text-align: center;
+    position :relative;
+}
+.technology{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    font-size: 60px;
+    padding:40px;
+}
+.technology .fa-html5 {
+    color:#e34c26;
+}
+
+.technology .fa-js{
+    color:#f0db4f;
+}
+.technology .fa-css3-alt {
+    color:#264de4;
+}
+.technology .fa-sass {
+    color:#CD6799;
+}
+.technology .fa-react {
+    color:#61dbfb;
+}
+.technology .fa-node-js {
+    color:#68a063;
+}
