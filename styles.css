@@ -4,120 +4,46 @@
     text-decoration: none;
     list-style: none;
 }
+
 body{
-    background-color: #252A34;
+    background-image: linear-gradient(to right,#222831,#FF2E63);
     font-family: montserrat;
 }
-label.logo{
-    font-size:35px;
-    font-weight: bold;
+.navbar a {
+    font-family: 'Montserrat', sans-serif;
     color:#EAEAEA;
-    padding: 0 100px;
-    line-height: 80px;
 }
-nav{
-    width: 100%;
-    height: 80px;
-    background-color:  #222831;
-
-}
-nav ul{
-    float:right;
-    margin-right: 40px;
-}
-nav li{
-    display: inline-block;
-    margin: 0 8px;
-    line-height: 80px;
-    
-}
-nav a{
+ .navbar-collapse .navbar-nav .nav-link {
     color:#EAEAEA;
-    font-size: 15px;
-    text-transform: uppercase;
-    border: 1px solid transparent;
 }
-.profile-text .img{
+img{
     position: relative;
     display: flex;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container{
-    position: relative;
-    margin: 50px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0,0.1);
     color:#EAEAEA;
-
-}
-
-
-.container .right_side{
-    position: relative;
-    padding: 40px;
-
-}
-.container .left-side{
-    position: relative;
-    padding: 40px;
-
-}
-p{
-    color:#EAEAEA;
-}
-h3{
-    color:#EAEAEA;
-}
-h2{
-    color:#FF2E63;
-
-}
-.about-me h3 {
-    margin-right:30px;
-    font-size: 50px;
-    color:#FF2E63;
-}
-.My_Projects h3{
-    margin-right:30px;
-    font-size: 50px;
-    color:#FF2E63;
-}
-.My_Projects p{
-    color:#08D9D6;
-    margin-right:30px;
-    font-size: 50px;
-    text-align: center;
-   
 }
 a{
-    color: inherit;
-}
-.container2{
-    text-align: center;
-    font-size: 15px;
-    position: relative;
-    padding:20px;
-}   
-
-.logo{
-    padding:20px;
-    font-size: 60px;
     color:#EAEAEA;
 }
-ul li{
-    text-align: center;
-    position :relative;
-}
 .technology{
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    font-size: 60px;
-    padding:40px;
+   
+    font-size: 30px;
+    text-align:center;
+   
+    
+}
+.brandText{
+    display: block;
+}
+.info{
+    text-align: center;
 }
 .technology .fa-html5 {
     color:#e34c26;
@@ -125,9 +51,12 @@ ul li{
 
 .technology .fa-js{
     color:#f0db4f;
+    margin-left: auto;
+    margin-right: auto;
 }
 .technology .fa-css3-alt {
     color:#264de4;
+    
 }
 .technology .fa-sass {
     color:#CD6799;
@@ -137,4 +66,47 @@ ul li{
 }
 .technology .fa-node-js {
     color:#68a063;
+}
+.technology .fa-bootstrap {
+    color:#563d7c;
+}
+h2{
+    text-align: center;
+    color:#FF2E63;
+}
+.My_Projects p{
+    color:#08D9D6;
+    margin-right:30px;
+    font-size: 30px;
+    text-align: center;
+   
+}
+.My_Projects p a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ .container2{
+        text-align: center;
+        font-size: 15px;
+        position: relative;
+        padding:20px;
+ }      
+ .logo{
+    padding:20px;
+    font-size: 60px;
+    color:#EAEAEA;
+}
+.navbar-light{
+    
+}
+.navbar-light .navbar-brand {
+    color: #EAEAEA;
+    
+}
+.card{
+    align-self: center;
+    margin-bottom: 30px;
+    background-color: #252A34;
+    
 }
